@@ -1,51 +1,20 @@
 body {
     background-color: black;
-}
-
-h3 {
     color: white;
-    font-weight: bold;
+    font-size: small;
 }
 
-.movies {
+.movie-container {
     display: flex;
-    justify-content: space-between;
     align-items: flex-start;
 }
 
-.movie1 {
+.movie-card-img {
     width: 15%;
     margin: 0;
     padding: 0;
+}
+
+.movie-card-info {
     text-align: justify;
-}
-
-.movie2 {
-    width: 15%;
-    padding: 0;
-    margin: 0;
-}
-
-.movie3 {
-    width: 15%;
-    padding: 0;
-    margin: 0;
-}
-
-.movie4 {
-    width: 15%;
-    padding: 0;
-    margin: 0;
-}
-
-.movie5 {
-    width: 15%;
-    padding: 0;
-    margin: 0;
-}
-
-.movie6 {
-    width: 15%;
-    padding: 0;
-    margin: 0;
 }
